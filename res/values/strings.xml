@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="app_name">SimSmsManager</string>
+    
+    <!-- State -->
+    <string name="refreshing">"Refreshing…"</string>
+    <string name="sim_manage_messages_title">"Text messages on SIM card"</string>
+    <string name="sim_empty">"No messages on SIM card."</string>
+    
+    <!-- Context Menu -->
+    <string name="sim_copy_to_phone_memory">"Copy to phone memory"</string>
+    <string name="sim_move_to_phone_memory">"Move to phone memory"</string>
+    <string name="sim_delete">"Delete"</string>
+        
+    <!-- Option Menu -->
+    <string name="menu_copy_messages">"Copy all"</string>
+    <string name="menu_move_messages">"Move all"</string>
+    <string name="menu_delete_messages">"Delete all"</string>
+    <string name="menu_about">"About"</string>
+    
+    <!-- Alert Dialog -->
+    <string name="confirm_dialog_title_delete">"Delete?"</string>
+    <string name="confirm_delete_all_SIM_messages">"All messages on the SIM card will be deleted."</string>
+    
+    <string name="confirm_dialog_title_copy">"Copy?"</string>
+    <string name="confirm_copy_all_SIM_messages">"All messages on the SIM card will be copied to phone memory."</string>
+    
+    <string name="confirm_dialog_title_move">"Move?"</string>
+    <string name="confirm_move_all_SIM_messages">"All messages on the SIM card will be moved to phone memory."</string>
+    
+    <string name="confirm_delete_SIM_message">"This message on the SIM card will be deleted."</string>
+    <string name="yes">"OK"</string>
+    <string name="no">"Cancel"</string>
+    
+    <!-- About Activity -->
+    <string name="about_contentDescription">[icone]</string>
+	<string name="about_title"><u>"Sim SMS Manager"</u></string>
+	<string name="about_goal">"For anyone who wants to copy or delete SMS from the SIM Card to the Phone memory."</string>
+	<string name="about_disclamer">"I <b>can\'t</b> be responsible for any problem or loss of data using this app. No rights reserved, 2011."</string>
+	<string name="about_dedicace">"<i>For <b>MaeMae</b></i>"</string>
+	<string name="about_ok">"OK"</string>
+        
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    
+	    <ImageView 
+	        android:id="@+id/about_banner"
+	        style="@style/AboutText"
+	        android:src="@drawable/ic_launcher"
+	        android:layout_centerHorizontal="true"
+	        android:contentDescription="@string/about_contentDescription" />
+	        
+	  	<TextView
+		    android:id="@+id/about_title"
+		    style="@style/AboutText"
+	        android:text="@string/about_title"
+	        android:layout_centerHorizontal="true"
+	        android:layout_below="@+id/about_banner"/>
+	    
+	    <TextView 
+	        android:id="@+id/about_goal"
+	        style="@style/AboutText"
+	        android:text="@string/about_goal"
+		    android:layout_centerHorizontal="true"
+	        android:layout_below="@+id/about_title"/>
+		    
+		<TextView 
+		    android:id="@+id/about_disclamer"
+		    style="@style/AboutText"
+	        android:text="@string/about_disclamer"
+	        android:layout_centerHorizontal="true"
+	        android:layout_below="@+id/about_goal"/>
+	    
+		<TextView 
+		    android:id="@+id/about_dedicace"
+		    style="@style/AboutText"
+	        android:text="@string/about_dedicace"
+	        android:textSize="20sp"
+	        android:layout_centerHorizontal="true"
+	        android:layout_below="@+id/about_disclamer"/>
+		
+		<Button 
+		    android:id="@+id/about_ok"
+		    style="@style/AboutText"
+		    android:text="@string/about_ok"
+		    android:layout_centerHorizontal="true"
+	        android:layout_below="@+id/about_dedicace"
+	        android:layout_width="100dp" />
+		
+	</RelativeLayout>
+
+</ScrollView>

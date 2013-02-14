@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    
+    <style name="AboutText">
+        <item name="android:textColor">#FF3C589D</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">7dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:autoLink">all</item>
+        <item name="android:selectAllOnFocus">false</item>
+        <item name="android:linksClickable">false</item>
+    </style>
+
+</resources>
